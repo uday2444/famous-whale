@@ -53,7 +53,7 @@ export default class Feature extends React.Component {
                 				<h2 className="feature__title h2">{_.get(feature, 'title', null)}</h2>
                 			)}
                 			{_.get(feature, 'subtitle', null) && (
-                			<p className="feature__subtitle">{_.get(feature, 'subtitle', null)}</p>
+                			x
                 			)}
                 			{_.get(feature, 'content', null) && (
                 			<div className="feature__copy">
